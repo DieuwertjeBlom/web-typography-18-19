@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Closed Captions</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.typotheque.com/WF-023273-010687.css"> 
-	<link rel="stylesheet" href="css.css">
-	<link rel="stylesheet" href="http://fonts.typotheque.com/WF-023273-010687.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
-</head>
-<body>
-	<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vrP-_T-h9YM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-		
-			<div id="video-placeholder"></div>
-		
-			<!-- sterren stukje -->
-
-			<div class="stars">
-				<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1078 661" style="enable-background:new 0 0 1078 661;" xml:space="preserve">
@@ -133,50 +113,3 @@
 		835.42,496.23 832.83,497.61 833.31,494.71 	"/>
 </g>
 </svg>
-
-
-
-			</div>
-
-		<div id="background"></div>
-	<div id="closed-captions">
-		<p class=""> </p>
-			<p class="voice1 on off">one of the wizards most rudimentary skills</p>
-			<p class="voice1 on off"> is levitation. Or the ability</p>
-			<p class="voice1 on off"> to make objects fly.</p>
-			<p class="voice1 on off">You will have your feathers. Good.</p>
-			<p class="voice1 on off">Now</p>
-			<p class="voice1 on off">Don't forget the nice wrist movement, we've been practicing</p>
-			<p class="voice1 on off">hm</p>
-			<p class="voice1 on off">The swish and flick</p> 
-			<p class="voice1 on off">everyone</p><!-- tot hier docent -->
-			<p class="voice2 on off">The swish and </p><!-- de klas -->
-			<p class="voice2 on off">flick</p><!-- de klas -->
-			<p class="voice1 on off">Good. Oh and enuciate</p> <!-- docent -->
-			<p class="voice1 on off">Wingardium Leviosa. Off you go then</p> <!-- docent -->
-			<p class="voice2 on off">Wingardium Leviosa</p><!-- de klas -->
-			<p class="voice3 on off">Wingardium Levi osar</p><!-- ron -->
-			<p class="voice4 on off">No Stop stop stop! You're going to take</p><!-- hermione -->
-			<p class="voice4 on off">someone's eye out</p><!-- hermione -->
-			<p class="voice4 on off">Besides you're saying it wrong.</p><!-- hermione -->
-			<p class="voice4 on off">Its Levi - Osa not leviosAR</p><!-- hermione -->
-			<p class="voice3 on off">You do it then, if you're so clever. Go on go on</p><!-- ron -->
-			<p class="voice2 on off">Wingardium Leviosa</p><!-- hermione -->
-			<p class="voice4 on off">Wingardium Leviosa</p><!-- de klas -->
-			<p class="voice1 on off">Oh well done!</p>
-			<p class="voice1 on off">See here everyone miss Granger done it!</p><!-- docent -->
-			<p class="voice1 on off">Oh splendid</p><!-- docent -->
-			<p class="voice5 on off">Wingard Leviosa Wingard</p><!-- Seamon -->
-			<p class="voice1 on off">Oh</p><!-- docent -->
-			<p class="voice6 on off">I think we're going to need a other feather over here professor</p><!-- Harry -->
-
-	</div>
-
-	<script src="https://www.youtube.com/iframe_api"></script>
-	<script>var captions = new Array();</script>
-	<script src="captions.js"></script>
-	<script>var sounds = new Array();</script>
-	<script src="sounds.js"></script>
-	<script src="yt.js"></script>
-	</body>
-</html>
