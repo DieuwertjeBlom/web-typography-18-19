@@ -11,6 +11,7 @@ body{
 	width: 22.5em;
 	height: 15em;
 	margin-top: 2em;
+
 }
 #background{
 	width: 106vw;
@@ -21,10 +22,9 @@ body{
 	
 }
 .sound1 #background{
-	background: url(assets/images/achtergrond.png) no-repeat;
+	background: url(assets/images/achtergrond.svg) no-repeat;
 	animation: grow 2s;
 	transform: translate(10%, -71%);
-
 }
 @keyframes grow {
   0% {
@@ -97,13 +97,9 @@ Feel free to adjust the defaults to your needs.
 	font-weight: 400;
 	width: 46em;
 	height: 12em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	transform: translate(15%, 56%);
 	font-size: 2em;
-	background: 7em 1em url(assets/images/vaandel.png) no-repeat;
-	animation: float 6s ease-in-out infinite;
+	
 	margin-top: -670px;
 }
 
@@ -124,16 +120,27 @@ Feel free to adjust the defaults to your needs.
 	transition: .05s;
 	position: absolute;
 	width: 14em;
-	padding: 1.5em 0 0 16em;
+	padding: .5em 0 0 16em;
+
 }
+#closed-captions .voice1{
+	background: url(assets/images/professor.svg) no-repeat;
+    animation: float 6s ease-in-out infinite;
+    margin-left: 4em; 
+    height: 240px;
+    margin-top: -271px;
+    padding: 2em 5.5em 0;
+}
+#closed-captions p.voice1{
+	color: #692a93;
+}
+
 .voice1.p6 {
     font-family: "brenner script bold";
     font-style: normal;
     font-weight: 200;
+   
 }
-
-
-
 #closed-captions .voice1.p6 p{
 	padding: 1em 0 0 17em;
 }
@@ -191,14 +198,170 @@ Feel free to adjust the defaults to your needs.
 	font-weight: 200;
 }
 .voice2.p10{
-	font-family: "brenner sans";
+	font-family: "brenner";
+	font-style: italic;
+	font-weight: 600;/*
+	color: white;*/
+}
+
+.voice2.p10:after{
+	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: 800;
+	color: #5bcbdd;
+
+	content: 'The swish and';
+	position: relative;
+	top: -144px;
+	left: 100px;
+	display: inline-block;
+}
+
+.voice2.p10:before{
+	font-family: "brenner sans";
+	font-style: italic;
+	font-weight: 200;
+	color: #5bdd86;
+
+	content: 'The swish and';
+	position: relative;
+	bottom: 70px;
+	right: 641px;
+	display: inline-block;
+}
+
+.voice2.p10 span:nth-of-type(2):after{
+	font-family: "brenner sans condensed";
+	font-style: normal;
+	font-weight: 200;
+	color: #d7dd5b;
+
+	content: 'The swish and';
+	position: relative;
+	left: 200px;
+	bottom: 500px;
+	bottom: 545px;
+	left: -720px;
+	display: inline-block;
+}
+
+.voice2.p10 span:nth-of-type(2):before{
+	font-family: "brenner slab";
+	font-style: italic;
+	font-weight: 800;
+	color: #dd905b;
+
+	content: 'The swish and';
+	position: relative;
+	bottom: 300px;
+	left: 350px;
+	display: inline-block;
+}
+
+.voice2.p10 span:nth-of-type(1):before{
+	font-family: "brenner";
+	font-style: italic;
+	font-weight: 600;
+	color: #d05bdd;
+
+	content: 'The swish and';
+	position: relative;
+	bottom: 650px;
+	left: 390px;
+	display: inline-block;
+}
+
+.voice2.p10 span:nth-of-type(1):after{
+	font-family: "brenner display black";
+	color: #dd5b5b;
+
+	content: 'The swish and';
+	position: relative;
+	bottom: 300px;
+	right: 350px;
+	display: inline-block;
 }
 .voice2.p11{
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 800;
+	color: white;
+}
+/*klas flick*/
+.voice2.p11:after{
+	font-family: "brenner display black";
+		color: #5bdd86;
+
+	content: 'flick';
+	position: relative;
+	top: -480px;
+	left: -940px;
+	display: inline-block;
+}
+
+.voice2.p11:before{
+	font-family: "brenner slab";
+	font-style: italic;
+	font-weight: 800;
+		color: #5bcbdd;
+
+	content: 'flick';
+	position: relative;
+	bottom: 70px;
+	right: 410px;
+	display: inline-block;
+}
+
+.voice2.p11 span:nth-of-type(2):after{
+	font-family: "brenner";
+	font-style: italic;
+	font-weight: 600;
+	color: #d7dd5b;
+
+	content: 'flick';
+	position: relative;
+	bottom: 425px;
+	left: 250px;
+	display: inline-block;
+}
+
+.voice2.p11 span:nth-of-type(2):before{
+	font-family: "brenner sans condensed";
+	font-style: normal;
+	font-weight: 200;
+	color: #dd905b;
+
+	content: 'flick';
+	position: relative;
+	bottom: 300px;
+	left: 350px;
+	display: inline-block;
+}
+
+.voice2.p11 span:nth-of-type(1):before{
+	font-family: "brenner script";
+	font-style: normal;
+	font-weight: 200;
+	color: #d05bdd;
+
+	content: 'flick';
+	position: relative;
+	bottom: 590px;
+	left: 450px;
+	display: inline-block;
+}
+
+.voice2.p11 span:nth-of-type(1):after{
+	font-family: "brenner sans";
+	font-style: italic;
+	font-weight: 200;
+	color: #dd5b5b;
+
+	content: 'flick';
+	position: relative;
+	bottom: 220px;
+	right: 350px;
+	display: inline-block;
 }
 .voice1.p12{
 	font-family: "brenner script bold";
@@ -210,15 +373,119 @@ Feel free to adjust the defaults to your needs.
 	font-style: normal;
 	font-weight: 200;
 }
+/*klas*/
 .voice2.p14{
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 800;
+
+	color: white;
+	bottom: 150px;
+	display: inline-block;
+}
+.voice2.p14:after{
+	font-family: "brenner sans";
+	font-style: normal;
+	font-weight: 800;
+	color: #dd5b5b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 240px;
+	right: 500px;
+	display: inline-block;
+}
+.voice2.p14:before{
+	font-family: "brenner sans condensed";
+	font-style: normal;
+	font-weight: 200;
+	color: #dd905b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 590px;
+	left: -691px;
+	display: inline-block;
+}
+.voice2.p14 span:nth-of-type(2):after{
+	font-family: "brenner";
+	font-style: italic;
+	font-weight: 600;
+	color: #d7dd5b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 485px;
+	left: 70px;
+	display: inline-block;
+}
+.voice2.p14 span:nth-of-type(2):before{
+	font-family: "brenner sans condensed";
+	font-style: normal;
+	font-weight: 200;
+	color: #dd905b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 580px;
+	left: 400px;
+	display: inline-block;
+}
+.voice2.p14 span:nth-of-type(1)::before {
+    font-family: "brenner script";
+    font-style: normal;
+    font-weight: 200;
+
+    color: #d05bdd;
+    content: 'Wingardium Leviosa';
+    position: relative;
+	bottom: 150px;
+	left: -220px;
+    display: inline-block;
+}
+.voice2.p14 span:nth-of-type(1):after{
+	font-family: "brenner display stencil black";
+	font-style: italic;
+	font-weight: 200;
+	color: #28ce9f;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 360px;
+	right: 680px;
+	display: inline-block;
+}
+/*ron*/
+#closed-captions .voice3{
+	background: url(assets/images/ron.svg) no-repeat;
+    animation: float 6s ease-in-out infinite;
+    margin-left: 4em; 
+	height: 240px;
+	margin-top: -201px;
+	padding: 2em 8em 0;
+}
+#closed-captions p.voice3{
+	color: #ff4800;
+	text-shadow: 0px 0px 6px rgba(17, 17, 17, 1);
 }
 .voice3.p15{
 	font-family: "brenner ";
 	font-style: italic;
 	font-weight: 800;
+
+}
+
+/*hermelien*/
+#closed-captions .voice4{
+	background: url(assets/images/hermione.svg) no-repeat;
+    animation: float 6s ease-in-out infinite;
+    margin-left: 4em; 
+	height: 240px;
+	margin-top: -201px;
+	padding: 2em 5em 0;
+}
+#closed-captions p.voice4{
+	color: #383838;
 }
 .voice4.p16{
 	font-family: "brenner sans condensed";
@@ -234,6 +501,7 @@ Feel free to adjust the defaults to your needs.
 	font-family: "brenner sans condensed";
 	font-style: normal;
 	font-weight: 200;
+	
 }
 .voice4.p19{
 	font-family: "brenner sans condensed";
@@ -245,16 +513,99 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 800;
 }
+/*klas*/
 .voice2.p21{
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 800;
 }
+.voice2.p21:after{
+	font-family: "brenner sans";
+	font-style: normal;
+	font-weight: 800;
+	color: #dd5b5b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 240px;
+	right: 500px;
+	display: inline-block;
+}
+.voice2.p21:before{
+	font-family: "brenner sans condensed";
+	font-style: normal;
+	font-weight: 200;
+	color: #dd905b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 590px;
+	left: -691px;
+	display: inline-block;
+}
+.voice2.p21 span:nth-of-type(2):after{
+	font-family: "brenner";
+	font-style: italic;
+	font-weight: 600;
+	color: #d7dd5b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 485px;
+	left: 70px;
+	display: inline-block;
+}
+.voice2.p21 span:nth-of-type(2):before{
+	font-family: "brenner sans condensed";
+	font-style: normal;
+	font-weight: 200;
+	color: #dd905b;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 580px;
+	left: 400px;
+	display: inline-block;
+}
+.voice2.p21 span:nth-of-type(1)::before {
+    font-family: "brenner script";
+    font-style: normal;
+    font-weight: 200;
+
+    color: #d05bdd;
+    content: 'Wingardium Leviosa';
+    position: relative;
+	bottom: 150px;
+	left: -220px;
+    display: inline-block;
+}
+.voice2.p21 span:nth-of-type(1):after{
+	font-family: "brenner display stencil black";
+	font-style: italic;
+	font-weight: 200;
+	color: #28ce9f;
+
+	content: 'Wingardium Leviosa';
+	position: relative;
+	bottom: 360px;
+	right: 680px;
+	display: inline-block;
+}
+
+/*hermelien*/
 .voice4.p22{
 	font-family: "brenner sans condensed";
 	font-style: normal;
 	font-weight: 200;
 }
+ 
+.closed-captions .voice4.p22{
+	margin-left: 1em;
+height: 240px;
+margin-top: -382px;
+}
+
+
 .voice1.p23{
 	font-family: "brenner script bold";
 	font-style: normal;
@@ -270,20 +621,49 @@ Feel free to adjust the defaults to your needs.
 	font-style: normal;
 	font-weight: 200;
 }
+/*simon*/
 .voice5.p26{
 	font-family: "brenner sans bold italic";
 	font-weight: 800;
 }
+#closed-captions .voice5{
+	background: url(assets/images/Seamus.svg) no-repeat;
+    animation: float 6s ease-in-out infinite;
+    margin-left: 4em; 
+	height: 240px;
+	margin-top: -201px;
+	padding: 2em 5em 0;
+}
+#closed-captions p.voice5{
+	color: #d7f2f4;
+}
+/*proffessor*/
 .voice1.p27{
 	font-family: "brenner script bold";
 	font-style: normal;
 	font-weight: 200;
 }
+/*harry*/
 .voice6.p28{
 	font-family: "brenner sans regular";
 	font-style: normal;
 	font-weight: 400;
 }
+#closed-captions .voice6{
+	background: url(assets/images/harry.svg) no-repeat;
+    animation: float 6s ease-in-out infinite;
+    margin-left: 4em; 
+	height: 180px;
+	margin-top: -201px;
+	padding: 2em 5em 0;
+
+}
+#closed-captions p.voice6{
+	text-shadow: 0px 0px 6px rgba(51, 51, 51, 3);
+  color:white;
+}
+
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -702,6 +1082,9 @@ font-size: 2em;
 	opacity: 1;
 	transition: 0s 1.5s;
 	font-weight: 600;
+	background-color: #ffff71;
+	text-decoration: underline;
+	text-decoration-color: #476afc;
 }
 
 
@@ -719,24 +1102,31 @@ font-size: 2em;
 .p19.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .5s;
+	color: green;
 }
 .p19.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .7s;
+	color: green;
 }
 .p19.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .9s;
 	font-style: italic;
+	color: green;
 }
 .p19.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 2.3s;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: red;
 }
 .p19.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 2.5s;
 	font-style: italic;
+	color: red;
 }
 
 /*p20*/
